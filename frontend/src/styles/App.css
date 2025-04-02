@@ -1,0 +1,31 @@
+.shadow-hover:hover {
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+  }
+  
+  .annotation-button {
+    transition: all 0.2s ease;
+  }
+  
+  .annotation-button:hover {
+    transform: translateY(-2px);
+  }
+  
+  /* Animation for point highlighting */
+  @keyframes pulse {
+    0% {
+      transform: scale(1);
+      opacity: 1;
+    }
+    50% {
+      transform: scale(1.1);
+      opacity: 0.8;
+    }
+    100% {
+      transform: scale(1);
+      opacity: 1;
+    }
+  }
+  
+  .point-highlight {
+    animation: pulse 2s infinite;
+  }
