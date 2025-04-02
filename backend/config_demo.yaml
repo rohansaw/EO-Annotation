@@ -1,0 +1,28 @@
+collections:
+  P20240304:
+    path: ''
+    dateStart: '2024-02-19'
+    dateEnd: '2024-03-04'
+    rename_bands: ['B0', 'B1', 'B2', 'B3', 'B4']
+  P20240318:
+    path: ''
+    dateStart: '2024-03-04'
+    dateEnd: '2024-03-18'
+    rename_bands: ['B0', 'B1', 'B2', 'B3', 'B4']
+  P20240401:
+    path: ''
+    dateStart: '2024-03-18'
+    dateEnd: '2024-04-01'
+    rename_bands: ['B0', 'B1', 'B2', 'B3', 'B4']
+
+visualizations:
+  plFC:
+    min: 0
+    max: 2400
+    bands: ['B3', 'B2', 'B1']
+    gamma: 1.5
+  plTC:
+    min: 0
+    max: 2400
+    bands: ['B2', 'B1', 'B0']
+    gamma: 1.5
